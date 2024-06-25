@@ -21,6 +21,9 @@ export default function Home() {
           <li className="my-2 p-5 w-15 h-15 bg-red-200 rounded-full hover:bg-red-700 hover:text-white">
             <Link href="./week-6">Week 6</Link>
           </li>
+          <li className="my-2 p-5 w-15 h-15 bg-red-200 rounded-full hover:bg-red-700 hover:text-white">
+            <Link href="./week-7">Week 7</Link>
+          </li>
         </ul>
       </center>
     </main>
