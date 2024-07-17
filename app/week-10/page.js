@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+
 import { useUserAuth } from "./_utils/auth-context";
 
 const UserProfile = () => {
@@ -14,7 +14,7 @@ const UserProfile = () => {
   };
 
   return (
-    <div className="min-h-screen bg-red-400 flex flex-col justify-center items-center">
+    <div className="min-h-screen bg-red-300 flex flex-col justify-center items-center">
       <div className="bg-white p-8 rounded-lg shadow-lg">
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full m-4"
@@ -28,12 +28,12 @@ const UserProfile = () => {
         >
           Sign out
         </button>
-        <Link
-          href="week-7"
+        <a
+          href="../week-10/shopping-list"
           class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full m-4"
         >
           Open Shopping List
-        </Link>
+        </a>
 
         <div className="mt-4">
           {user ? (
